@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    font-family:sans-serif;
+}
+
+.parent{
+    margin:170px 350px 130px 350px;
+    display:grid;
+   background-color:black;
+}
+.child{
+    color: white;
+   border: 0px  solid white;
+   margin:20px 50px 20px 50px;
+   background-color:black;
+   line-height: 1.rem;
+}
+.header{
+    background-color: black;
+    margin: 20px;
+}
+
+
+.headertable{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.5;
+}
+.img1{
+  text-align:right;
+}
+
+.header1{
+text-align: left;
+color:red;
+font-family:Verdana, Arial;
+  font-weight:bold;
+ font-size:40px;
+ font-stretch: narrower;
+
+}
+.header2{
+    color:whitesmoke;
+    letter-spacing: 0.1em;
+    text-align: left;
+   font-family:monospace;
+  font-size:15px;
+  font-stretch: narrower;
+}
+.one{
+    background-color: black;
+   padding: 0px; 
+text-align: center;
+}
+.two{
+    padding:20px;
+    text-align: center;
+    background-color:palevioletred;
+}
+.three{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(14, 173, 236);
+}
+.four{
+    padding:0px;
+    text-align: center;
+    background-color: rose;
+}
+.five{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(14, 173, 236);
+}
+.six{
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+}
+.seven{
+    padding: 0px;
+    text-align: center;
+}
+.img2{
+    background-color:palevioletred;
+padding: 20px 20px 20px 10px;
+width: 100%;
+align-content: center;
+}
+.red{
+   width: 100%;
+}
+.table6{
+    width: 100%;
+}
+.headings{
+    font-family:Verdana, Arial;
+      font-weight:bold;
+     font-size:30px;
+
+}
+.subheadings{
+    font-family:Verdana, Arial;
+    font-weight: bold;
+    font-size: 17px;
+ font-weight: bold;
+}
+.para{
+   font-family: cursive;
+    font-size: 15px;
+    font-stretch: narrower;
+    font-weight: normal;
+}
+.underline{
+    font-family: cursive;
+    font-size: 16px;
+    font-stretch: narrower;
+    font-weight: normal;
+    line-height: 2rem;
+}
+/*some rows contain 2 coloums so im making separate css selectot*/
+.lefttable{
+    background-color:orange;
+    padding: 20px;
+}
+.righttable{
+    background-color:rgb(25, 162, 216);
+    padding: 20px;
+}
+.l{
+    background-color:rgb(240, 102, 125);
+    padding: 20px;
+}
+.r{
+    background-color:orange;
+    padding: 20px;
+}
+.ls{
+    background-color: rgb(25, 162, 216);
+    padding: 20px;
+}
+.rs{
+    background-color: palevioletred;
+    padding: 20px;
+}
